@@ -1,0 +1,35 @@
+&pgbinary
+  History_Track_win_flag(1) = .true.
+  History_Track_txt_scale(1) = 0.8
+  History_Track_title(1) = ' '
+  History_Track_xname(1) = 'model_number'
+  History_Track_yaxis_label(1) = 'Binary Period (day)'
+  History_Track_reverse_xaxis(1) = .false.
+  History_Track_xmin(1) = 0.0
+  History_Track_ymax(1) = 7.0
+  History_Track_file_flag(1) = .true.
+  History_Track_file_prefix(2) = 'track2_'
+  History_Track_file_interval(2) = 100
+show_History_Track1_annotation(3) = .false.
+
+Profile_Panels_xaxis_reversed(3) = .true.
+Profile_Panels_num_panels(3) = 3
+Profile_Panels3_yaxis_name(1) = 'Abundance'
+
+   Grid_ytop(4) = 0.92
+   Grid_title(4) = ''
+/
+
+&pgstar
+    Profile_Panels_txt_scale(1) = 1.0
+    Profile_Panels_title(1) = 'Profile Panels1'
+    Profile_Panels_xaxis_reversed(1) = .false.
+    Profile_Panels1_yaxis_reversed(2) = .false.
+    Profile_Panels1_other_ymargin(3) = 0.1
+    Profile_Panels_ytop(2) = 0.9
+    Profile_Panels_title(2) = 'Abundance-Power'
+    Color_magnitude9_other_dymin(3) = -1
+    Color_magnitude9_use_decorator = .false.
+    Text_Summary1_name(7,3) = 'center n14'
+    Grid4_plot_name(2) = 'Summary_Profile'
+/
