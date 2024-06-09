@@ -12,6 +12,6 @@ controls.
   *should* be replaced by.  This is curated manually as a reference
   for what the `sed` commands should do.
 
-* `run.sh` is a script that runs some `sed` commands and `diff`s the
-  output relative to `expected_output.txt` to see if we're doing
-  things right.
+* `run.sh` is a script that runs some `sed` commands on the file in
+  the first argument and `diff`s the output relative to the file in
+  the second argument to see if we're doing things right.
